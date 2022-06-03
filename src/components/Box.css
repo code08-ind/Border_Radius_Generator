@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  flex: 0.5;
+  display: flex;
+  background-color: rgb(255, 253, 226);
+  align-items: center;
+  justify-content: center;
+}
+
+.box__box {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  background-color: #158CBA;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  justify-content: center;
+}
